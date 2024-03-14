@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aaron Ygnacio || Web Portfolio</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mx-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#landing">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#projects">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#tools">Tools</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<section id="landing" class="container-fluid">
+		<div class="row text-white my-4 flex-column py-5 align-items-center text-center">
+			<div class="col-md-2">
+				<img src="./images/pic.jpg" class="img-fluid rounded-circle border border-dark">			
+			</div>
+			<h1 class="my-2">Aaron Ygnacio</h1>
+			<h4 class="my-2 text-center">Full Stack Web Developer</h4>
+			<p class="text-justify my-2">Currently studying.</p>
+		</div>
+	</section>
+
+	<section id="projects" class="container-fluid">
+		<h3 class="my-3 text-center text-white">Projects</h3>
+		<div class="card-deck my-4 justify-content-center">
+			<div class="card col-md-3">
+				<img src="images/arknights.webp" class="card-img-top">
+				<div class="card-body">
+					<h5 class="card-title">Arknights</h5>
+				</div>
+			</div>
+			<div class="card col-md-3">
+				<img src="images/mgs.png" class="card-img-top">
+				<div class="card-body">
+					<h5 class="card-title">Metal Gear Solid</h5>
+				</div>
+			</div>
+			<div class="card col-md-3">
+				<img src="images/frostpunk.jpg" class="card-img-top">
+				<div class="card-body">
+					<h5 class="card-title">Frostpunk</h5>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="tools" class="container-fluid">
+		<div class="my-3 d-flex flex-column justify-content-center align-items-center text-white" id="tools">
+			<h3 class="text-center my-5">Tools</h2>
+				<div class="d-flex flex-wrap justify-content-center mb-4">
+					<img class=" m-1 rounded" width="80" src="images/html5.png"/>
+					<img class=" m-1 rounded" width="80" src="images/css3.png"/>
+					<img class=" m-1 rounded" width="80" src="images/git.png"/>
+					<img class=" m-1 rounded" width="80" src="images/sublimetext3.png"/>
+				</div>
+			</div>
+	</section>
+
+	<section id="contact" class="container-fluid text-white">
+			<h3 class="text-center my-5">Contact</h3>
+			<div class="d-flex flex-wrap justify-content-center mb-4" id="contact">
+				<a href="https://www.facebook.com/aaron.ygnacio.3" target="_blank">
+					<img class="m-1" width="40" src="images/fb.png"/>
+				</a>
+			</div>
+			<div class="row">
+				<div class="col-md-6 my-4">
+					<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.7280862832813!2d121.0624439759404!3d14.557535978127923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8627d642027%3A0x6b3fd14065685c40!2s93%204th%20Ave%2C%20Taguig%2C%201216%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1710379361055!5m2!1sen!2sph" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+				</div>
+				<div class="col-md-6 my-4">
+					<form>
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" id="name" class="form-control" placeholder="Your Name" required autocomplete>
+						</div>
+						<div class="form-group">
+							<label for="email">Email Address</label>
+							<input type="email" id="email" class="form-control" placeholder="name@example.com" required autocomplete>
+						</div>
+						<div class="form-group">
+							<label for="number">Contact Number</label>
+							<input type="tel" id="number" class="form-control" placeholder="1234567890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required autocomplete>
+						</div>
+						<div class="form-group">
+							<label for="message">Message</label>
+							<textarea id="message" class="form-control" rows="5"></textarea>
+						</div>
+						<button type="submit" class="btn btn-outline-info btn-block">Send</button>
+					</form>
+				</div>
+			</div>
+	</section>
+
+	<footer class="bg-secondary text-white d-flex justify-content-center d-grid gx-3 p-2 mt-5">
+		<div class="foot p-2">Aaron Ygnacio</div>
+		<div class="foot p-2">| |</div>
+		<div class="foot p-2">Web Developer</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
